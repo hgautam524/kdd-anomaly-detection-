@@ -40,12 +40,13 @@ kdd-anomaly-detection/
 │
 ├── data/                  # Place for KDD Cup files
 │
-│
+│---anomaly-detection-Visualisation.ipynb      # Jupyter Visualisation Analysis File
 ├── requirements.txt
 ├── Dockerfile
 ├── README.md
 └── .gitignore
 
+![image](https://github.com/user-attachments/assets/6a699700-1802-40d4-b88e-c5a6449e8fe0)
 
 
 ## Usage
