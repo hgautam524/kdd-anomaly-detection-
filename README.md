@@ -1,4 +1,4 @@
-# KDD Cup 1999 Anomaly Detection
+## Anomaly Detection In Network Traffic
 
 An end-to-end anomaly detection project using the KDD Cup 1999 dataset, leveraging both Isolation Forest and Autoencoder models. Features:
 
