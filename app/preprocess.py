@@ -19,6 +19,6 @@ def load_all_data():
         fpath = os.path.join(DATA_DIR, fname)
         if not os.path.exists(fpath):
             continue
-        df = pd.read_csv(fpath, names=KDD_COLUMNS, header=None, low_memory=False)
+        df = pd.read_csv(fpath, names=KDD_COLUMNS, header=None, low_memory=False, nrows=10000)
         dfs.append(df)
     return pd.concat(dfs, ignore_index=True)
