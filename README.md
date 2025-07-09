@@ -22,29 +22,6 @@ This project is a complete end-to-end pipeline for detecting anomalies in networ
 
 ## 📁 Project Structure
 
-kdd-anomaly-detection/
-│
-├── app/
-│   ├── __init__.py
-│   ├── model.py           # ML logic (training, prediction)
-│   ├── preprocess.py      # Data loading and preprocessing
-│   ├── config.py          # Configurations
-│   └── utils.py
-│
-├── flask_api/
-│   ├── __init__.py
-│   └── main.py            # Flask app exposing prediction API
-│
-├── streamlit_ui/
-│   └── app.py             # Streamlit frontend
-│
-├── data/                  # Place for KDD Cup files
-│
-│---anomaly-detection-Visualisation.ipynb      # Jupyter Visualisation Analysis File
-├── requirements.txt
-├── Dockerfile
-├── README.md
-└── .gitignore
 
 ![image](https://github.com/user-attachments/assets/6a699700-1802-40d4-b88e-c5a6449e8fe0)
 
@@ -86,6 +63,18 @@ POST /predict
   "duration": 0, "protocol_type": 1, ...
 }
 ```
+
+## Inside anomaly-detection-Visualisation.ipynb 
+
+![image](https://github.com/user-attachments/assets/f14b7648-75ae-4434-a059-f667fd7bf42d)
+
+![image](https://github.com/user-attachments/assets/6353f285-6c37-49dd-a82a-8990bd8bf244)
+
+![image](https://github.com/user-attachments/assets/877198f2-5a86-4379-a969-f80ce2641d88)
+
+![image](https://github.com/user-attachments/assets/6270650a-20a9-4a89-8a62-5472ecb45efc)
+
+
 
 ## Notes
 
