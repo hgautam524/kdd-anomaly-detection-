@@ -1,11 +1,28 @@
-## Anomaly Detection In Network Traffic
+## 🚨 Anomaly Detection in Network Traffic
 
-An end-to-end anomaly detection project using the KDD Cup 1999 dataset, leveraging both Isolation Forest and Autoencoder models. Features:
+This project is a complete end-to-end pipeline for detecting anomalies in network traffic using the **KDD Cup 1999 dataset**. It combines **unsupervised machine learning** techniques like **Isolation Forest** and **Autoencoders**, and offers:
 
-- Loads and aggregates all provided KDD Cup data files.
-- Offers a Flask API for backend ML inference.
-- Streamlit UI for user-friendly interaction.
-- Ready for Docker deployment.
+- ✅ A Flask API for inference
+- ✅ A Streamlit UI for interaction and visualization
+- ✅ A Jupyter notebook with detailed analysis
+- ✅ Docker support for one-click deployment
+
+---
+
+## 📦 Features
+
+- 🔍 Detects anomalies using Isolation Forest & Autoencoder
+- 📊 Visualize traffic patterns, labels, and outliers
+- 💾 Upload custom datasets through UI
+- 📈 View real-time results in an interactive dashboard
+- 🧠 Jupyter notebook analysis: `anomaly-detection-Visualisation.ipynb`
+- 🐳 Dockerized for cross-platform execution
+
+---
+
+## 📁 Project Structure
+
+
 
 ## Usage
 
