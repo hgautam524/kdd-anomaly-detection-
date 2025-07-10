@@ -55,6 +55,15 @@ docker run -p 5000:5000 -p 8501:8501 -v $(pwd)/data:/app/data kdd-anomaly-detect
 - Streamlit UI: [http://localhost:8501](http://localhost:8501)
 - API: [http://localhost:5000/predict](http://localhost:5000/predict)
 
+## Streamlit ( Login Credentials )
+- Use default Login Credentials
+--- USER AUTH (simple demo, not secure) ---
+USERS = {"admin": "admin123", "user": "user123"}
+
+![image](https://github.com/user-attachments/assets/a95f470e-8c26-4680-b192-69fcd68bbe21)
+
+
+
 ## API Example
 
 ```json
