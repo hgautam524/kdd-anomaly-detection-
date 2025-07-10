@@ -57,8 +57,8 @@ docker run -p 5000:5000 -p 8501:8501 -v $(pwd)/data:/app/data kdd-anomaly-detect
 
 ## Streamlit ( Login Credentials )
 - Use default Login Credentials
---- USER AUTH (simple demo, not secure) ---
-USERS = {"admin": "admin123", "user": "user123"}
+- --- USER AUTH (simple demo, not secure) ---
+- USERS = {"admin": "admin123", "user": "user123"}
 
 ![image](https://github.com/user-attachments/assets/a95f470e-8c26-4680-b192-69fcd68bbe21)
 
